@@ -4,9 +4,12 @@
 
 <form method="POST" action="<?php echo route('link-opslaan') ?>">
     @csrf
-    <input type="text" name="title">
-    <input type="text" name="description">
-    <input type="text" name="url">
+    <label>Title
+    <input type="text" name="title"></label>
+    <label>Description
+    <input type="text" name="description"></label>
+    <label>URL
+    <input type="text" name="url"></label>
     <input type="submit" value="Submit">
 </form>
 
